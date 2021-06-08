@@ -1,17 +1,18 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  padding: 0px;
-  margin: 0px;
-}
-
-.link {
-  padding-left: 50px;
-}
-
-.navbar {
+.header {
   display: flex;
+  height: 70px;
+  background-color: black;
   align-items: center;
+  justify-content: center;
+}
+
+.headerText {
+  display: flex;
+  color: white;
+  font-size: 18px;
 }
