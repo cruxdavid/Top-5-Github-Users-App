@@ -2,17 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-.header {
-  display: flex;
-  height: 70px;
-  background-color: #282828;
-  align-items: center;
-  justify-content: center;
-}
-
-.headerText {
-  display: flex;
-  color: white;
-  font-size: 18px;
-}

@@ -6,6 +6,9 @@ import React from "react";
 const Home = () => {
   return (
     <div>
+      <div className="header">
+        <h1 className="headerText">Home</h1>
+      </div>
       <div className="container">
         <h1 className="title">Top 5 Github Users</h1>
         <p className="info">Tap the username to see more information</p>

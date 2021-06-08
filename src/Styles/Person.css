@@ -25,3 +25,16 @@
   font-size: 14px;
   color: #b1b1b1;
 }
+
+.person-link {
+  display: flex;
+  color: white;
+  text-decoration: unset;
+  font-size: 18px;
+}
+
+.icon-container {
+  position: absolute;
+  left: 10px;
+  padding-top: 1vh;
+}
