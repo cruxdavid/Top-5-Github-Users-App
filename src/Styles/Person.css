@@ -38,3 +38,13 @@
   left: 10px;
   padding-top: 1vh;
 }
+
+.horizontal-rule {
+  width: 96%;
+  height: 1px;
+  margin-top: 30px;
+  background-color: #e5e5e5;
+  position: absolute;
+  margin-left: 2%;
+  margin-right: 2%;
+}

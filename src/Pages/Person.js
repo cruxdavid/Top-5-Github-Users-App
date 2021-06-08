@@ -46,6 +46,7 @@ const Person = () => {
           <h1 className="location">{userProfile.location}</h1>
         </div>
       </div>
+      <div className="horizontal-rule"></div>
     </>
   );
 };
