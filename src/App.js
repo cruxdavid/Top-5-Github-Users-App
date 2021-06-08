@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Person from "./Pages/Person";
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Person:id" exact component={Person} />
+        <Route path="/Person/:username" exact component={Person} />
       </Switch>
     </Router>
   );
