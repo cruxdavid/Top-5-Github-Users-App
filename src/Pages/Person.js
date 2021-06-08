@@ -24,8 +24,11 @@ const Person = () => {
   }, []);
 
   return (
-    <div>
-      <img src={userProfile.avatar_url} />
+    <div style={{ paddingTop: "40px", paddingLeft: "40px" }}>
+      <img
+        style={{ height: "80px", width: "80px", borderRadius: 40 }}
+        src={userProfile.avatar_url}
+      />
       <h1>{userProfile.name}</h1>
       <h1>{userProfile.location}</h1>
     </div>
