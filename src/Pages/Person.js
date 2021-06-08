@@ -1,3 +1,5 @@
+import "../Styles/Person.css";
+
 import { useEffect, useState } from "react";
 
 import React from "react";
@@ -24,13 +26,12 @@ const Person = () => {
   }, []);
 
   return (
-    <div style={{ paddingTop: "40px", paddingLeft: "40px" }}>
-      <img
-        style={{ height: "80px", width: "80px", borderRadius: 40 }}
-        src={userProfile.avatar_url}
-      />
-      <h1>{userProfile.name}</h1>
-      <h1>{userProfile.location}</h1>
+    <div className="person-container">
+      <img className="image" src={userProfile.avatar_url} />
+      <div className="text-container">
+        <h1 className="name">{userProfile.name}</h1>
+        <h1 className="location">{userProfile.location}</h1>
+      </div>
     </div>
   );
 };

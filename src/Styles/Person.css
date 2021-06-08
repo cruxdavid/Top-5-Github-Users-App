@@ -1,0 +1,27 @@
+.person-container {
+  padding-top: 5vh;
+  padding-left: 5vh;
+  display: flex;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.location {
+  font-size: 14px;
+  color: #b1b1b1;
+}
